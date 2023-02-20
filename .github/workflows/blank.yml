@@ -67,5 +67,13 @@ jobs:
           javac ATM.java
           echo Executing Code
           java ATM
-  
-
+  build-Succes_Ubuntu:
+    
+    echo "Ubuntu build was a succces"
+    needs: build-ubuntu
+   
+  build-Succes_Windowa:
+    
+    echo "Ubuntu build was a succces"
+    needs: build-windows
+   
