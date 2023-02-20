@@ -27,7 +27,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'oracle'
-          java-version: "18"
+          java-version: "18.0.1"
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
