@@ -53,6 +53,7 @@ jobs:
      # - name: Setting up windows
       - uses: actions/setup-java@v3
         with:
+          distribution: 'oracle'
           java-version: "18.0.1"
 #
  #     - name: Listing directory
