@@ -53,7 +53,7 @@ jobs:
       - name: Setting up windows
       - uses: actions/setup-java@v3
         with:
-        java-version: "18.0.1"
+          java-version: "18.0.1"
 
       - name: Listing directory
         run: dir
