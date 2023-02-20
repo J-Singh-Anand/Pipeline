@@ -68,12 +68,19 @@ jobs:
           echo Executing Code
           java ATM
   build-Succes_Ubuntu:
-    
-    echo "Ubuntu build was a succces"
+    runs-on: ubuntu-latest
     needs: build-ubuntu
-   
-  build-Succes_Windowa:
     
-    echo "Ubuntu build was a succces"
+    steps:
+      - name: Print Execution status
+        run: echo "Ubuntu build was a succces"
+    
+   
+  build-Succes_Windows:
+    runs-on: windows-latest
     needs: build-windows
+    
+    steps:
+      - name: Print Execution status
+        run: echo "Windows build was a succces"
    
