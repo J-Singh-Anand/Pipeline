@@ -43,12 +43,12 @@ jobs:
           javac ATM.java
           echo Executing Code
           java ATM
-  #build-windows:
-   # runs-on: windows-latest
+  build-windows:
+    runs-on: windows-latest
     
-    #steps:
-     # - name: Checking out Code
-      #- uses: actions/checkout@v3
+    steps:
+      - name: Checking out Code
+      - uses: actions/checkout@v3
 #
  ##     - name: Setting up windows
    #   - uses: actions/setup-java@v3
