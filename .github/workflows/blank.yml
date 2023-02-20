@@ -49,4 +49,4 @@ jobs:
           #path: echo
           javac --version
           javac ./ATM/ATM.java
-          java ./ATM/ATM
+          cd ATM && java ATM
