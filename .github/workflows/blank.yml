@@ -40,13 +40,12 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        env:
-          working-directory: ./ATM
+        working-directory: ./ATM
           
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
           #path: echo
           javac --version
-          javac ./ATM/ATM.java
-          cd ATM && java ATM
+          javac ATM.java
+          java ATM
