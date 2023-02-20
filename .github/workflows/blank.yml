@@ -46,7 +46,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          path: echo
+          #path: echo
           javac --version
           javac ATM.java
           java ATM.java
