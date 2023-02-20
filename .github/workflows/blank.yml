@@ -28,6 +28,7 @@ jobs:
         with:
           distribution: 'oracle'
           java-version: "18.0.1"
+      - run: java ATM.java
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -42,4 +43,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           javac --version
-          java ATM.java
+          #java ATM.java
