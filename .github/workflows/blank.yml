@@ -48,5 +48,5 @@ jobs:
           echo test, and deploy your project.
           #path: echo
           javac --version
-          javac ATM.java
-          java ATM.java
+          javac ./ATM/ATM.java
+          java ./ATM/ATM
